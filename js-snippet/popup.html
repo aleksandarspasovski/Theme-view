@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.pop-up{
+
+		}
+		.inne-column-pop-up{
+			width: 38%;
+			background-color: #bababa;
+			margin: 0 auto;
+			height: auto;
+			box-shadow: 0 21px 59px rgba(0,0,0,.24);
+			background-color: #fff;
+			left: 50%;
+			top: 50%;
+			-webkit-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+			position: fixed;
+			padding: 0 3.75rem;
+			text-align: center;
+		}
+		.inne-column-pop-up h2{
+			color: #3d3c43;
+			font-family: AvertaThin,sans-serif;
+			font-size: 2rem;
+			font-weight: 400;
+			padding-bottom: 15px;
+			margin-bottom: 15px;
+			position: relative;
+			text-align: center;
+		}
+		#vat-popup>h2:after {
+		    content: "";
+		    display: block;
+		    width: 79px;
+		    height: 5px;
+		    border-radius: 4px;
+		    background-color: #fff;
+		    background-image: linear-gradient(90deg,#ffae00 0,#ffd100);
+		    position: absolute;
+		    bottom: 0;
+		    left: 50%;
+		    -webkit-transform: translateX(-50%);
+		    transform: translateX(-50%);
+		}
+		.inne-column-pop-up img{
+			width: 110px;
+			height: 110px;
+			margin: -30px auto 0;
+			display: block;
+		}
+		.cl{
+			width: 50%;
+			float: left;
+			position: relative;
+			min-height: 1px;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+		.cl ul{
+			list-style: none;
+			padding: 0;
+			list-style: none;
+			width: 80%;
+			margin: 1rem auto;
+			text-align: center;
+		}
+		.cl ul li{
+			text-align: center;
+			position: relative;
+			padding-bottom: 1rem;
+			margin-bottom: 1rem;
+		}
+		.cl ul li a{
+			color: #333;
+			text-decoration: none;
+		}
+		.pop-up .inne-column-pop-up .cl ul li:not(:last-child):after{
+			content: "";
+			display: block;
+			width: 60px;
+			height: 2px;
+			border-radius: 4px;
+			background-color: #fff;
+			background-image: linear-gradient(90deg,#ffae00 0,#ffd100);
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			-webkit-transform: translateX(-50%);
+			transform: translateX(-50%);
+		}
+	</style>
+</head>
+<body>
+
+	<div id="vat-overlay" class="overlay active">
+		<div id="vat-popup">
+			<img src="https://www.tovedo.hr/cc-content/themes/tovedo/asset/images/logo2.png">
+			<h2>Makromikro grupa<br>Sve za Vaš ured</h2>
+			<h3 class="title-underline text-center">Dobrodošli</h3>
+			<div class="description">
+				<p>Na stranicama naše internetske trgovine pronaći ćete širok asortiman proizvoda za Vas i Vaš ured. Za pristup cjelokupnoj ponudi proizvoda i omogućenu kupovinu, molimo Vas da prethodno odaberete kupujete li kao pravna ili kao fizička osoba. Vaš odabir u bilo kojem trenutku možete promijeniti klikom na ikonicu u gornjem lijevom uglu ekrana.</p>
+			</div>
+			<div class="options row">
+				<div class="col-sm-6">
+					<span class="vat-option with-vat" data-option="0">Maloprodaja</span>
+					<ul>
+						<li>cijene za fizičke osobe koje kupuju preko weba</li>
+						<li>omogućeno gotovinsko plaćanje pouzećem</li>
+						<li>beskamatno plaćanje karticama do maksimalno 36 rata</li>
+					</ul>
+				</div>
+				<div class="col-sm-6">
+					<span class="vat-option with-vat" data-option="1">Tvrtke</span>
+					<ul>
+						<li>cijene za pravne osobe koje kupuju preko weba</li>
+						<li>registrirajte se kako biste vidjeli svoje cijene</li>
+						<li>poseban popust na kompletan asortiman proizvoda</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

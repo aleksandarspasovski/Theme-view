@@ -1,0 +1,96 @@
+body{
+	/*background-image: url('../../../public/images/bck1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;*/
+}
+.welcome-side{
+    width: 90%;
+    margin: 45px auto 0 auto;
+    min-height: inherit;
+}
+.welcome-left-side{
+	width: 60%;
+	float: left;
+}
+.inner-box{
+	margin: 0 auto;
+    width: 90%;
+}
+.inner-box img{
+	position: relative;
+    left: 10%;
+}
+.inner-box h1{
+	margin-top: 0;
+	/*margin-bottom: 0;*/
+    font-size: 2.5em;
+    font-weight: 900;
+	color: #41798d;
+    font-family: sans-serif;
+}
+.inner-box p{
+	padding-right: 5px;
+    color: #41798d;
+    font-weight: 900;
+    border-radius: 8px;
+    text-align: right;
+    font-family: sans-serif;
+    border-bottom: 4px solid #41798d;
+}
+.welcome-right-side{
+	width: 40%;
+	float: left;
+}
+.login-form{
+	width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+	border-radius: 15px;
+	background-color: #fff;
+	box-shadow: 0px 0px 7px 2px lightgrey;
+}
+.login-form h2{
+	color: #41798d;
+	text-align: center;
+}
+.login-form form{
+	width: 80%;
+    margin: 50px auto 0px auto;
+}
+.form-contoll{
+    margin-bottom: 15px;
+	text-align: center;
+}
+.form-contoll input[type="email"], .form-contoll input[type="password"]{
+	width: 95%;
+    line-height: 3;
+    border-radius: 10px;
+    border-width: 0px;
+    border: 1px solid lightgrey;
+    padding-left: 10px;
+}
+.form-contoll input[type="email"]:focus, .form-contoll input[type="password"]:focus{
+	outline: none;
+    box-shadow: 0px 0px 2px 1px #41798d;
+}
+#form-login input[type="submit"]{
+    height: 30px;
+    width: 85px;
+    float: right;
+    color: #fff;
+    border-width: 0;
+    font-weight: 800;
+    border-radius: 5px;
+    background-color: #41798d;
+    border: 1px solid lightgrey;
+}
+#form-login input[type="submit"]:hover{
+    background-color: #41798dc7;
+}
+#form-login input[type="submit"]:active{
+    transform: scale(0.95);
+}
+#form-login input[type="submit"]:focus{
+    outline: none;
+}

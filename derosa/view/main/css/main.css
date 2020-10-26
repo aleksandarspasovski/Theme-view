@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+	min-height: 800px;
+    /*background-color: #dadee1;*/
+}
+main{
+	width: 80%;
+    height: 800px;
+    float: left;
+    /*background-color: green;*/
+}
+aside{
+	width: 20%;
+    min-height: inherit;
+	float: left;
+	/*background-color: coral;*/
+}
+.login-form{
+    margin: 27px;
+    /*margin: 0 auto;*/
+    height: fit-content;
+    /* padding: 5px; */
+}
+.login-form form{
+    width: min-content;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    /* background-color: #585858; */
+    box-shadow: 0px 0px 2px 0px black;
+}
+.login-form form h3{
+	margin: 0;
+	text-align: center;
+}
+.login-form form a{
+	text-decoration: none;
+}
+.login-form form input[type="email"], input[type="password"]{
+	margin: 10px;
+	padding-left: 5px;
+    line-height: 2;
+    border-width: 0;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+.login-form form input[type="submit"]{
+	float: right;
+    margin-right: 10px;
+    width: 30%;
+}
